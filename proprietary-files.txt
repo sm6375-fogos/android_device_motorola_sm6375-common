@@ -285,7 +285,7 @@ vendor/lib64/vendor.qti.gnss@3.0.so
 vendor/lib64/vendor.qti.gnss@4.0-service.so
 vendor/lib64/vendor.qti.gnss@4.0.so
 
-# Graphics - Adreno
+# Graphics - Adreno From A736BXXUAGYH7
 vendor/lib/egl/eglSubDriverAndroid.so
 vendor/lib/egl/libEGL_adreno.so;SYMLINK=vendor/lib/libEGL_adreno.so
 vendor/lib/egl/libGLESv1_CM_adreno.so
@@ -333,9 +333,9 @@ vendor/gpu/kbc/unified_kbcs_32.bin
 vendor/gpu/kbc/unified_kbcs_64.bin
 vendor/gpu/kbc/unified_ksqs.bin
 
-# Graphics - Vulkan
-vendor/lib/hw/vulkan.adreno.so
-vendor/lib64/hw/vulkan.adreno.so
+# Vulkan From A736BXXUAGYH7
+vendor/lib/hw/vulkan.adreno.so|68fb9034a8d9ccd94ade96ebd7ec7999de925546
+vendor/lib64/hw/vulkan.adreno.so|957470c3ad5cf13a38dedb5a8824c4ce71908188
 
 # IPA firmware
 vendor/etc/init/ipa_fws.rc
