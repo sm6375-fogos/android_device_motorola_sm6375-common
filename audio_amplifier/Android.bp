@@ -4,7 +4,7 @@
 //
 
 cc_library_shared {
-    name: "audio_amplifier.lahaina",
+    name: "audio_amplifier.holi",
     relative_install_path: "hw",
     vendor: true,
     owner: "qti",
